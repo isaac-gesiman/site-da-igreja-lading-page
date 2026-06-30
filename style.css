@@ -1,0 +1,126 @@
+#menu {
+    background-color: #000000;
+    color: white;
+
+    width: 250px;
+    height: 100%;
+
+    position: fixed;
+    top: 0; 
+    left: 0;
+
+    padding: 20px;
+}
+
+#menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+#menu h1 {
+    color:green;
+    font-size: 40px;
+    text-align: center;
+}
+
+#logoGrande {
+    width: 1400px;
+    margin: 0 0 140px 0;
+    height: 380px;
+    place-items: center;
+}  
+
+#logo {
+    width: 100%;
+    height: 120%;
+}
+
+.conteudo {
+    margin-left: 290px;
+    padding: 20px;
+    place-items: center;
+    text-align: center;
+}
+
+.conteudo h1 {
+    font-size: 40px;
+}
+
+.conteudo p {
+    font-size: 20px;
+}
+
+.conteudo h2{
+    font-size: 30px;
+
+}
+.conteudo h3{
+    font-size: 25px;
+}
+
+#instagram {
+   background-color: #f54bc2;
+   border-radius: 50%;
+   margin: 0 10px 0 10px;
+}
+
+#facebook {
+    background-color: #3b5998;
+    border-radius: 50%; 
+    margin: 0 10px 0 10px;
+}
+
+#youtube {
+    background-color: #ff0000;
+    border-radius: 50%;
+    margin: 0 10px 0 10px;
+}
+
+#spotify {
+    background-color: #1ed760;
+    border-radius: 50%;
+    margin: 0 10px 0 10px;
+}
+
+
+#cultoCria{
+    width: 300px;
+    height: 450px
+}
+
+.letraVerde {
+    color: green;
+}
+
+#logoFinal {
+    width: 50%;
+    height: 50%;
+}
+
+.fotosTemplo {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+    margin-top: 40px;
+}
+
+.fotosTemplo figure {
+    width: 40%;
+    margin: 0;
+    text-align: center;
+}
+
+.fotosTemplo img {
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+    display: block;
+}
+
+.fotosTemplo figcaption {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #555;
+}
