@@ -1,0 +1,16 @@
+{
+  "hosting": {
+    "target": "mossoro",
+    "public": ".",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**",
+      "node_modules/**",
+      "package.json",
+      "package-lock.json",
+      "firebase-debug.log",
+      "README.md"
+    ]
+  }
+}
