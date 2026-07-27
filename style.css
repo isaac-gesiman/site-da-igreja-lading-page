@@ -208,7 +208,7 @@ body {
 
 /* CELULARES */
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 400px) {
     #menu {
         min-height: 50px;
         padding: 10px 5px;
@@ -255,7 +255,7 @@ body {
         height: auto;
     }
 
-    #horarioCulto {
+    #horarioCulto{
         width: 100%;
         height: auto;
         border-radius: 0;
