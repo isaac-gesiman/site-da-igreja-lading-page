@@ -256,9 +256,9 @@ body {
     }
 
     #horarioCulto {
-        width: 30%;
-        height: 30%;
-        margin: 0 auto;
+        width: 200px;
+        height: 300px;
+        margin: 0;
         border-radius: 0;
     }
 
