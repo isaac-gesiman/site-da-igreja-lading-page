@@ -208,7 +208,7 @@ body {
 
 /* CELULARES */
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 300px) {
     #menu {
         min-height: 50px;
         padding: 10px 5px;
