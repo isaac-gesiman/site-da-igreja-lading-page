@@ -299,15 +299,3 @@ body {
         padding: 15px;
     }
 }
-/* TABLETS */
-
-@media screen and (min-width: 601px) and (max-width: 900px) {
-    .cards-ministerios {
-        grid-template-columns: repeat(2, 1fr);
-    }
-
-    #horarioCulto {
-        width: 100%;
-        height: auto;
-    }
-}
