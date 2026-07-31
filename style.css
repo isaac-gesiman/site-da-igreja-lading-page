@@ -198,16 +198,16 @@ body {
 }
 
 .fotosTemplo figure {
-    width: 40%;
-    height: 40%;
-    margin: 10px;
+    width: 25%;
+    height: 25%;
+    margin: 30px;
     text-align: center;
 }
 
 .fotosTemplo img {
     display: block;
-    width: 600px;
-    height: 500px;
+    width: 400px;
+    height: 300px;
 }
 
 .fotosTemplo figcaption {
