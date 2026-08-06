@@ -78,21 +78,21 @@ body {
 }
 
 .conteudo h1 {
-    font-size: 6vh;
+  font-size: clamp(2rem, 5vw, 3.5rem);
 }
 
 .conteudo h2 {
-    font-size: 4vh;
+  font-size: clamp(1.6rem, 4vw, 2.8rem);
 }
 
 .conteudo h3 {
-    font-size: 3vh;
+  font-size: clamp(1.3rem, 3vw, 2.2rem);
 }
 
 .conteudo p {
-    font-size: 2.5vh;
-    color: black;
-    margin: 0 20px 0 20px;
+  font-size: clamp(0.95rem, 1.2vw, 1.2rem);
+  color: black;
+  margin: 0 20px 0 20px;
 }
 
 /* LOGO PRINCIPAL */
