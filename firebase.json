@@ -1,5 +1,6 @@
 {
   "hosting": {
+    "site": "igreja-batista-getsemani-mossoro-rn",
     "public": ".",
     "ignore": [
       "firebase.json",
