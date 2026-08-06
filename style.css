@@ -22,9 +22,8 @@ body {
 
 #menu {
     width: 100%;
-    max-width: 100vw;
-    height:auto;
-    max-height: 50px;
+    max-width: 100vh;
+    min-height: 50px;
     background-color: white;
 
     position: fixed;
@@ -72,7 +71,7 @@ body {
 /* CONTEÚDO PRINCIPAL */
 
 .conteudo {
-    width: 100%;
+    width: 100vw;
     margin-top: 90px;
     padding: 0;
     text-align: center;
@@ -101,12 +100,8 @@ body {
   line-height: 1.5; 
 }
 
-.loca{
-    font-size: clamp(0.30rem, 1.5vw, 1.25rem);
-}
 
 /* LOGO PRINCIPAL */
-
 #logo {
     display: block;
     width: 100%;
@@ -145,6 +140,10 @@ body {
 
 .letraVerde {
     color: #4a701c;
+}
+
+.loca{
+    font-size: clamp(0.30rem, 1.5vw, 1.25rem);
 }
 
 /* IMAGEM DOS HORÁRIOS */
