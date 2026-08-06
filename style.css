@@ -78,19 +78,19 @@ body {
 }
 
 .conteudo h1 {
-    font-size: 10vh;
+    font-size: 6vh;
 }
 
 .conteudo h2 {
-    font-size: 7vh;
+    font-size: 4vh;
 }
 
 .conteudo h3 {
-    font-size: 5vh;
+    font-size: 3vh;
 }
 
 .conteudo p {
-    font-size: 3vh;
+    font-size: 2.5vh;
     color: black;
     margin: 0 20px 0 20px;
 }
