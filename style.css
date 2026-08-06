@@ -78,21 +78,25 @@ body {
 }
 
 .conteudo h1 {
-  font-size: clamp(2rem, 5vw, 3.5rem);
+  /* Mínimo reduzido para 1.5rem no celular */
+  font-size: clamp(1.5rem, 5vw, 3rem);
+  word-break: break-word; /* Evita que palavras longas saiam da tela */
 }
 
 .conteudo h2 {
-  font-size: clamp(1.6rem, 4vw, 2.8rem);
+  font-size: clamp(1.25rem, 4vw, 2.2rem);
 }
 
 .conteudo h3 {
-  font-size: clamp(1.3rem, 3vw, 2.2rem);
+  font-size: clamp(1.1rem, 3vw, 1.8rem);
 }
 
 .conteudo p {
-  font-size: clamp(0.95rem, 1.2vw, 1.2rem);
+ 
+  font-size: clamp(1rem, 1.5vw, 1.25rem);
   color: black;
-  margin: 0 20px 0 20px;
+  margin: 0 5% 0 5%;
+  line-height: 1.5; 
 }
 
 /* LOGO PRINCIPAL */
