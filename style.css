@@ -74,23 +74,23 @@ body {
     margin-top: 90px;
     padding: 0;
     text-align: center;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
 }
 
 .conteudo h1 {
-    font-size: 40px;
+    font-size: 9vh;
 }
 
 .conteudo h2 {
-    font-size: 30px;
+    font-size: 7vh;
 }
 
 .conteudo h3 {
-    font-size: 25px;
+    font-size: 5vh;
 }
 
 .conteudo p {
-    font-size: 20px;
+    font-size: 3vh;
     color: black;
     margin: 0 20px 0 20px;
 }
@@ -114,6 +114,7 @@ body {
 #spotify {
     border-radius: 50%;
     margin: 0 10px;
+    height: 4vw;
 }
 
 #instagram {
@@ -134,6 +135,10 @@ body {
 
 .letraVerde {
     color: #4a701c;
+}
+
+.loca{
+    font-size: 3vh;
 }
 
 /* IMAGEM DOS HORÁRIOS */
@@ -192,28 +197,16 @@ body {
 .fotosTemplo {
     display: flex;
     justify-content: center;
-    align-items: flex-start;
-    
-    margin-top: 40px;
+    gap: 10px;
+    margin-top: 20px;
+    flex-wrap: wrap;
 }
 
-.fotosTemplo figure {
-    width: 25%;
-    height: 25%;
-    margin: 30px;
-    text-align: center;
-}
-
-.fotosTemplo img {
-    display: block;
-    width: 400px;
-    height: 300px;
-}
-
-.fotosTemplo figcaption {
-    margin-top: 10px;
-    font-size: 14px;
-    color: #555;
+#temploConstrucao, #temploPronto{
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 10px;
 }
 
 a {
