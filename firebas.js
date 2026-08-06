@@ -16,6 +16,6 @@ const firebaseConfig = {
   measurementId: "G-999G05XHBH"
 };
 
-// Initialize Firebase
+// Initialize Firebase saSas
 const app = initializeApp(firebaseConfig);
 const analytics = getAnalytics(app);
