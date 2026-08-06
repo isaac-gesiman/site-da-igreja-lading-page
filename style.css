@@ -79,21 +79,21 @@ body {
 
 .conteudo h1 {
   /* Mínimo reduzido para 1.5rem no celular */
-  font-size: clamp(1.5rem, 5vw, 3rem);
+  font-size: clamp(1rem, 5vw, 3rem);
   word-break: break-word; /* Evita que palavras longas saiam da tela */
 }
 
 .conteudo h2 {
-  font-size: clamp(1.25rem, 4vw, 2.2rem);
+  font-size: clamp(0.70rem, 4vw, 2.2rem);
 }
 
 .conteudo h3 {
-  font-size: clamp(1.1rem, 3vw, 1.8rem);
+  font-size: clamp(0.50rem, 3vw, 1.8rem);
 }
 
 .conteudo p {
  
-  font-size: clamp(1rem, 1.5vw, 1.25rem);
+  font-size: clamp(0.30rem, 1.5vw, 1.25rem);
   color: black;
   margin: 0 5% 0 5%;
   line-height: 1.5; 
