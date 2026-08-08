@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://igreja-batista-getsemani-mossoro-rn.web.app/sitemap-v2.xml
